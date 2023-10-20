@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap">
+    <link rel="icon" href="images/peli.ico">
+    <title>Cinema en casa</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="contenedor">
+            <div class="logo">
+                <!-- <h1>LOGO</h1> -->
+                <img src="images/logo.png"  alt="">
+            </div>
+            <div class="menu">
+                <ul class="lista">
+                    <li ><a href="index.html">Home</a></li>
+                    <li ><a href="#registro">Registro</a></li>
+                    <li ><a href="#estrenos">Estrenos</a></li>
+                    <li ><a href="#proximamente">Proximamente</a></li>
+                    <li ><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter"></i></a> 
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Seccion Carrusel -->
+        <section>
+            <div class="carrucel">
+                <ul>
+                    <li><img src="images/imagen1.jpg"></li>
+                    <li><img src="images/imagen2.jpg"></li>
+                    <li><img src="images/imagen3.jpg"></li>
+                    <li><img src="images/imagen4.jpg"></li>
+                </ul>
+        </section>
+        <!-- Seccion Registro -->
+        <section class="registro" id="registro">
+            <div class="registro-texto">
+                <h1>Tene todas las peliculas y series al alcance de un solo  Click</h1>
+                <br>
+                <h3> Registrate gratis por 10 dias y ten acceso a todas las peliculas y series actuales </h3> 
+            </div>  
+            <div class="registro-boton"> 
+                <a href="registro.html"> Registrate aca </a> 
+            </div>       
+            <div class="registro-texto">   
+                <br>   
+               <h4>Si ya sos usuario registrado<a href="#" target="_blank">inicia sesion ahora</a></h4>
+            </div>
+        </section>
+        <!-- Seccion Estrenos -->
+        <section class="estrenos" id="estrenos">
+            <div class="estrenos-texto">
+                <h1>Estrenos</h1>
+            </div>
+            <div class="estrenos-contenidos">
+                <div class="animate__animated animate__fadeInLeft animate__delay-1s">
+                    <img src="images/galeria/1.jpg" alt="1">
+                    <h3 class="estrenos-texto-2">La cenicienta</h3>
+                    <span class="estrenos-texto-span"><p class="estrenos-texto-3">estreno</p></span>
+                </div>
+                <div class="animate__animated animate__fadeInLeft animate__delay-1s">
+                    <img src="images/galeria/2.jpg" alt="2">
+                    <h3 class="estrenos-texto-2">Milagro</h3>
+                    <span class="estrenos-texto-span"><p class="estrenos-texto-3">estreno</p></span>
+                </div>
+                <div class="animate__animated animate__fadeInLeft animate__delay-1s">
+                    <img src="images/galeria/3.jpg" alt="3">
+                    <h3 class="estrenos-texto-2">Simeone</h3>
+                    <span class="estrenos-texto-span"><p class="estrenos-texto-3">estreno</p></span>
+                    </div>
+                <div class="animate__animated animate__fadeInLeft animate__delay-1s">
+                    <img src="images/galeria/4.jpg" alt="4">
+                    <h3 class="estrenos-texto-2">Taylor Swift</h3>
+                    <span class="estrenos-texto-span"><p class="estrenos-texto-3">estreno</p></span>
+                </div>
+            </div>
+        </section>
+        <!-- Seccion Proximamente -->
+        <section class="proximamente" id="proximamente">
+            <div class="proximamente-texto">
+                <h1>Proximamente en cinema</h1>
+            </div>
+            <div class="iframe-link">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zaeWF6ZIoR4?si=oH4O_VX22WP_6F6_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-grupo1">
+            <div class="footer-box">
+                <figure>
+                    <a href="#">
+                        <img src="images/logo.png" alt="logocinema">
+                    </a>
+                </figure>
+            </div>
+            <div class="footer-box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolorem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolorem.</p>
+            </div>
+            <div class="footer-box">
+                <h2>CAMBIO USD-ARS</h2>
+                <div class="dolar-letra" id="precioDolarVenta"></div>
+            </div>
+        </div>
+        <div class="footer-grupo2">
+            <small>&copy; 2023 <b>Cinema en Casa</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/ee142d95d7.js" crossorigin="anonymous"></script>
+    <script src="js/dolar.js"></script>
+    
+</body>
+</html>
